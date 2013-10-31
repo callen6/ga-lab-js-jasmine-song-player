@@ -12,7 +12,7 @@ describe("Player", function() {
     expect(player.currentlyPlayingSong).toEqual(song);
 
     //demonstrates use of custom matcher
-    expect(player).toBePlaying(song);
+   expect(player).toBePlaying(song);
   });
 
   describe("when song has been paused", function() {
@@ -56,3 +56,22 @@ describe("Player", function() {
     });
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
